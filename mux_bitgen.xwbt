@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\ISE Projects\vhdl-basics\mux.ncd
+OUTFILE=E:\ISE Projects\vhdl-basics\mux.bit
+FAMILY=Spartan6
+PART=xc6slx9-3ftg256
+WORKINGDIR=E:\ISE Projects\vhdl-basics
+LICENSE=WebPack
+USER_INFO=__0_0_0

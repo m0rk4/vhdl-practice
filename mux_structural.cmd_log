@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux_structural.xst" -ofn "E:/ISE Projects/vhdl-basics/mux_structural.syr" 
