@@ -79,4 +79,10 @@
 	13.1 Syntax: Component [Name] port(...) End Component;
 	13.2 Usage with For-loop syntax:  [Group Name]: FOR J in [start] to [end] GENERATE [Component Name]: [Compnent] port map(...); end generate;
 
-14. 
+14. Process
+	14.1 Processes are parallel, statements in processes are sequential
+	14.2 Sensitivity list
+		14.2.1 Running state (executes statements)
+		14.2.2 Suspending (waiting for signals changing)
+		14.2.3 Lifecycle: Suspended -> [Signal from sensetivity list changed] -> Execute all statements (Running) -> Suspended
+

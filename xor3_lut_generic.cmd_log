@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "xor3_lut_generic.ngc" xor3_lut_generic.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o xor3_lut_generic_map.ncd xor3_lut_generic.ngd xor3_lut_generic.pcf 
+par -w -intstyle ise -ol high -mt off xor3_lut_generic_map.ncd xor3_lut_generic.ncd xor3_lut_generic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xor3_lut_generic.twx xor3_lut_generic.ncd -o xor3_lut_generic.twr xor3_lut_generic.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_lut_generic.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "xor3_lut_generic.ngc" xor3_lut_generic.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o xor3_lut_generic_map.ncd xor3_lut_generic.ngd xor3_lut_generic.pcf 
+par -w -intstyle ise -ol high -mt off xor3_lut_generic_map.ncd xor3_lut_generic.ncd xor3_lut_generic.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xor3_lut_generic.twx xor3_lut_generic.ncd -o xor3_lut_generic.twr xor3_lut_generic.pcf 

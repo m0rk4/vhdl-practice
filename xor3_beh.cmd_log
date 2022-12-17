@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_beh.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_beh.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_beh.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_beh.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/xor3_beh.xst" -ofn "E:/ISE Projects/vhdl-basics/xor3_beh.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "xor3_beh.ngc" xor3_beh.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o xor3_beh_map.ncd xor3_beh.ngd xor3_beh.pcf 
+par -w -intstyle ise -ol high -mt off xor3_beh_map.ncd xor3_beh.ncd xor3_beh.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml xor3_beh.twx xor3_beh.ncd -o xor3_beh.twr xor3_beh.pcf 
