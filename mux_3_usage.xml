@@ -5,25 +5,25 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <DeviceUsageSummary rev="2">
-<DesignStatistics TimeStamp="Sun Dec 18 00:17:42 2022"><group name="MiscellaneousStatistics">
+<DesignStatistics TimeStamp="Sun Dec 18 00:34:12 2022"><group name="MiscellaneousStatistics">
 <item name="AGG_BONDED_IO" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="6"/></item>
 <item name="AGG_IO" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="6"/></item>
 <item name="AGG_SLICE" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NUM_BONDED_IOB" rev="2">
-<attrib name="value" value="4"/></item>
+<attrib name="value" value="6"/></item>
 <item name="NUM_BSLUTONLY" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NUM_BSUSED" rev="2">
 <attrib name="value" value="1"/></item>
-<item name="NUM_LOGIC_O6ONLY" rev="2">
+<item name="NUM_LOGIC_O5ANDO6" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NUM_SLICEX" rev="2">
 <attrib name="value" value="1"/></item>
 <item name="NUM_SLICE_CYINIT" rev="2">
-<attrib name="value" value="1"/></item>
+<attrib name="value" value="2"/></item>
 <item name="NUM_SLICE_UNUSEDCTRL" rev="2">
 <attrib name="value" value="1"/></item>
 </group>

@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux_3.xst" -ofn "E:/ISE Projects/vhdl-basics/mux_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "mux_3.ngc" mux_3.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux_3_map.ncd mux_3.ngd mux_3.pcf 
+par -w -intstyle ise -ol high -mt off mux_3_map.ncd mux_3.ncd mux_3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux_3.twx mux_3.ncd -o mux_3.twr mux_3.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux_3.xst" -ofn "E:/ISE Projects/vhdl-basics/mux_3.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux_3.xst" -ofn "E:/ISE Projects/vhdl-basics/mux_3.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux_3.xst" -ofn "E:/ISE Projects/vhdl-basics/mux_3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "mux_3.ngc" mux_3.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux_3_map.ncd mux_3.ngd mux_3.pcf 
+par -w -intstyle ise -ol high -mt off mux_3_map.ncd mux_3.ncd mux_3.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mux_3.twx mux_3.ncd -o mux_3.twr mux_3.pcf 
