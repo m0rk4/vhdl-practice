@@ -35,5 +35,42 @@
 		3.4.3 Translation (To binary)
 		3.4.4 On FPGA Chip Layout
 
-4. 
+4. VHDL Descriptions
+	4.1 Behavioral (synthesized)
+	4.2 Structural (synthesized)
+	4.3 Time description (Z <= A and B after 10 ns;) (not synthesized)
+	4.4 Mixed description (4.1? + 4.2? + 4.3?)
 
+5. Port - component, which is used to provide connection between internal and external environment
+	5.1 IN (read inside component)
+	5.2 OUT (write to port)
+	5.3 INOUT (5.1 + 5.2)
+	5.4 buffer (5.2 + read inside Unit)
+
+6. STD_LOGIC type 
+	6.1 'U' - uninitialized
+	6.2 'X' - force unknown 
+	6.3 '0' - force 0 (synthesized)
+	6.4 '1' - force 1 (synthesized)
+	6.5 'Z' - high impedence (synthesized)
+	6.6 'W' - weak unknown 
+	6.7 'L' - weak 0
+	6.8 'H' - weak 1
+	6.9 '-' - don't care
+
+7. BIT type
+	7.1 '0' - logic 0
+	7.2 '1' - logic 1
+
+8. STD_LOGIC_VECTOR type
+	8.1 std_logic_vector(3 downto 0) - Little endian
+	8.2 std_logic_vector(1 to 3) - Big endian
+
+9. Ports and signal operators:
+	9.1 AND, OR, NOT, XOR, NAND, NOR, XNOR
+
+10. Each statement in architecture body is executed in parallel
+
+11. Resolution table is used to cover situations with multiple drivers for one port/signal (like '0'-'1'='X')
+
+12. 
