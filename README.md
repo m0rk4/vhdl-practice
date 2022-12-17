@@ -73,4 +73,10 @@
 
 11. Resolution table is used to cover situations with multiple drivers for one port/signal (like '0'-'1'='X')
 
-12. 
+12. Signal is like a wire.
+
+13. Structural Descriptions are based on components usages 
+	13.1 Syntax: Component [Name] port(...) End Component;
+	13.2 Usage with For-loop syntax:  [Group Name]: FOR J in [start] to [end] GENERATE [Component Name]: [Compnent] port map(...); end generate;
+
+14. 

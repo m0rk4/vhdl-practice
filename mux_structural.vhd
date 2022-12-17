@@ -30,6 +30,24 @@ architecture Structural of mux_structural is
 	signal sn: std_logic;
 	signal asn: std_logic;
 	signal bs: std_logic;
+	
+	component AND2 
+		port(
+		I0, I1: in std_logic;
+		O: out std_logic);
+	end component;
+	
+	component OR2 
+		port(
+		I0, I1: in std_logic;
+		O: out std_logic);
+	end component;
+	
+	component INV 
+		port(
+		I: in std_logic;
+		O: out std_logic);
+	end component;
 begin
 	U1: INV port map(S, sn);
 	U2: AND2 port map(A, sn, asn);

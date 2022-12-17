@@ -12,7 +12,7 @@ Total CPU time to Xst completion: 0.12 secs
 Total REAL time to Xst completion: 0.00 secs
 Total CPU time to Xst completion: 0.12 secs
  
---> Reading design: mux_structural.prj
+--> Reading design: and_n.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -40,16 +40,16 @@ TABLE OF CONTENTS
 *                      Synthesis Options Summary                        *
 =========================================================================
 ---- Source Parameters
-Input File Name                    : "mux_structural.prj"
+Input File Name                    : "and_n.prj"
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
-Output File Name                   : "mux_structural"
+Output File Name                   : "and_n"
 Output Format                      : NGC
 Target Device                      : xc6slx9-3-ftg256
 
 ---- Source Options
-Top Module Name                    : mux_structural
+Top Module Name                    : and_n
 Automatic FSM Extraction           : YES
 FSM Encoding Algorithm             : Auto
 Safe Implementation                : No
@@ -105,28 +105,27 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Parsing VHDL file "E:\ISE Projects\vhdl-basics\mux_structural.vhd" into library work
-Parsing entity <mux_structural>.
-Parsing architecture <Structural> of entity <mux_structural>.
+Parsing VHDL file "E:\ISE Projects\vhdl-basics\components_sample.vhd" into library work
+Parsing entity <and_n>.
+Parsing architecture <Behavioral> of entity <and_n>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
 
-Elaborating entity <mux_structural> (architecture <Structural>) from library <work>.
-WARNING:HDLCompiler:89 - "E:\ISE Projects\vhdl-basics\mux_structural.vhd" Line 46: <inv> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "E:\ISE Projects\vhdl-basics\mux_structural.vhd" Line 34: <and2> remains a black-box since it has no binding entity.
-WARNING:HDLCompiler:89 - "E:\ISE Projects\vhdl-basics\mux_structural.vhd" Line 40: <or2> remains a black-box since it has no binding entity.
+Elaborating entity <and_n> (architecture <Behavioral>) with generics from library <work>.
+WARNING:HDLCompiler:89 - "E:\ISE Projects\vhdl-basics\components_sample.vhd" Line 41: <and2> remains a black-box since it has no binding entity.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
-Synthesizing Unit <mux_structural>.
-    Related source file is "E:\ISE Projects\vhdl-basics\mux_structural.vhd".
+Synthesizing Unit <and_n>.
+    Related source file is "E:\ISE Projects\vhdl-basics\components_sample.vhd".
+        N = 5
     Summary:
 	no macro.
-Unit <mux_structural> synthesized.
+Unit <and_n> synthesized.
 
 =========================================================================
 HDL Synthesis Report
@@ -149,11 +148,11 @@ Found no macro
 *                         Low Level Synthesis                           *
 =========================================================================
 
-Optimizing unit <mux_structural> ...
+Optimizing unit <and_n> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block mux_structural, actual ratio is 0.
+Found area constraint ratio of 100 (+ 5) on block and_n, actual ratio is 0.
 
 Final Macro Processing ...
 
@@ -178,16 +177,14 @@ Partition Implementation Status
 *                            Design Summary                             *
 =========================================================================
 
-Top Level Output File Name         : mux_structural.ngc
+Top Level Output File Name         : and_n.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
 # BELS                             : 4
-#      AND2                        : 2
-#      INV                         : 1
-#      OR2                         : 1
-# IO Buffers                       : 4
-#      IBUF                        : 3
+#      AND2                        : 4
+# IO Buffers                       : 6
+#      IBUF                        : 5
 #      OBUF                        : 1
 
 Device utilization summary:
@@ -197,19 +194,17 @@ Selected Device : 6slx9ftg256-3
 
 
 Slice Logic Utilization: 
- Number of Slice LUTs:                    1  out of   5720     0%  
-    Number used as Logic:                 1  out of   5720     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      1
-   Number with an unused Flip Flop:       1  out of      1   100%  
-   Number with an unused LUT:             0  out of      1     0%  
-   Number of fully used LUT-FF pairs:     0  out of      1     0%  
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                           4
- Number of bonded IOBs:                   4  out of    186     2%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    186     3%  
 
 Specific Feature Utilization:
 
@@ -244,7 +239,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 7.850ns
+   Maximum combinational path delay: 8.959ns
 
 Timing Details:
 ---------------
@@ -252,24 +247,25 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 4 / 1
+  Total number of paths / destination ports: 5 / 1
 -------------------------------------------------------------------------
-Delay:               7.850ns (Levels of Logic = 5)
-  Source:            S (PAD)
+Delay:               8.959ns (Levels of Logic = 6)
+  Source:            A<0> (PAD)
   Destination:       Z (PAD)
 
-  Data Path: S to Z
+  Data Path: A<0> to Z
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   1.222   0.616  S_IBUF (S_IBUF)
-     INV:I->O              1   0.568   0.924  U1 (sn)
-     AND2:I1->O            1   0.223   0.944  U2 (asn)
-     OR2:I0->O             1   0.203   0.579  U4 (Z_OBUF)
+     IBUF:I->O             1   1.222   0.944  A_0_IBUF (A_0_IBUF)
+     AND2:I0->O            1   0.203   0.944  U1 (X<0>)
+     AND2:I0->O            1   0.203   0.944  ANDGRP[0].U2 (X<1>)
+     AND2:I0->O            1   0.203   0.944  ANDGRP[1].U2 (X<2>)
+     AND2:I0->O            1   0.203   0.579  ANDGRP[2].U2 (Z_OBUF)
      OBUF:I->O                 2.571          Z_OBUF (Z)
     ----------------------------------------
-    Total                      7.850ns (4.787ns logic, 3.063ns route)
-                                       (61.0% logic, 39.0% route)
+    Total                      8.959ns (4.605ns logic, 4.354ns route)
+                                       (51.4% logic, 48.6% route)
 
 =========================================================================
 
@@ -280,13 +276,13 @@ Cross Clock Domains Report:
 
 
 Total REAL time to Xst completion: 4.00 secs
-Total CPU time to Xst completion: 3.88 secs
+Total CPU time to Xst completion: 3.86 secs
  
 --> 
 
 Total memory usage is 4486276 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    3 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

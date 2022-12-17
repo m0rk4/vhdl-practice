@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/components_sample.xst" -ofn "E:/ISE Projects/vhdl-basics/components_sample.syr" 
