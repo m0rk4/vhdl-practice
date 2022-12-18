@@ -116,7 +116,11 @@
       <association xil_pn:name="Implementation" xil_pn:seqID="523"/>
     </file>
     <file xil_pn:name="lfsr_n_external.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="524"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="524"/>
+    </file>
+    <file xil_pn:name="binary_counter_with_async_reset.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="Implementation" xil_pn:seqID="525"/>
     </file>
   </files>
 
