@@ -111,6 +111,13 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="522"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="522"/>
     </file>
+    <file xil_pn:name="custom_lfsr.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="523"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="523"/>
+    </file>
+    <file xil_pn:name="lfsr_n_external.vhd" xil_pn:type="FILE_VHDL">
+      <association xil_pn:name="Implementation" xil_pn:seqID="524"/>
+    </file>
   </files>
 
   <properties>
