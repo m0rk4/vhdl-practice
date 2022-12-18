@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "mylut4.ngc" mylut4.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mylut4_map.ncd mylut4.ngd mylut4.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "mylut4.ngc" mylut4.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mylut4_map.ncd mylut4.ngd mylut4.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mylut4.xst" -ofn "E:/ISE Projects/vhdl-basics/mylut4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "mylut4.ngc" mylut4.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mylut4_map.ncd mylut4.ngd mylut4.pcf 
+par -w -intstyle ise -ol high -mt off mylut4_map.ncd mylut4.ncd mylut4.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml mylut4.twx mylut4.ncd -o mylut4.twr mylut4.pcf 

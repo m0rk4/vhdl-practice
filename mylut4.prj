@@ -1,0 +1,2 @@
+vhdl work "xor3_lut_generic.vhd"
+vhdl work "lut4.vhd"

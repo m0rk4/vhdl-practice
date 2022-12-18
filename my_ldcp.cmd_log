@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/my_ldcp.xst" -ofn "E:/ISE Projects/vhdl-basics/my_ldcp.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "my_ldcp.ngc" my_ldcp.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o my_ldcp_map.ncd my_ldcp.ngd my_ldcp.pcf 
+par -w -intstyle ise -ol high -mt off my_ldcp_map.ncd my_ldcp.ncd my_ldcp.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml my_ldcp.twx my_ldcp.ncd -o my_ldcp.twr my_ldcp.pcf 

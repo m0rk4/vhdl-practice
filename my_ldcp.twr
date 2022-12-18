@@ -1,0 +1,120 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n 3
+-fastpaths -xml my_ldcp.twx my_ldcp.ncd -o my_ldcp.twr my_ldcp.pcf
+
+Design file:              my_ldcp.ncd
+Physical constraint file: my_ldcp.pcf
+Device,package,speed:     xc6slx9,ftg256,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock CLR
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+D           |    0.543(F)|      SLOW  |    0.723(F)|      SLOW  |Q_G               |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock G
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+D           |    0.604(F)|      SLOW  |    0.211(F)|      SLOW  |Q_G               |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock PRE
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+D           |   -0.003(F)|      FAST  |    1.114(F)|      SLOW  |Q_G               |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock CLR to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Q           |         6.538(F)|      SLOW  |         3.373(F)|      FAST  |Q_G               |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock G to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Q           |         6.026(F)|      SLOW  |         3.342(F)|      FAST  |Q_G               |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock PRE to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+Q           |         6.929(F)|      SLOW  |         3.870(F)|      FAST  |Q_G               |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock CLR
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLR            |         |         |    0.992|    0.992|
+PRE            |         |         |    1.383|    1.383|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock G
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLR            |         |         |    1.053|    1.053|
+PRE            |         |         |    1.444|    1.444|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PRE
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLR            |         |         |    0.259|    0.259|
+PRE            |         |         |    0.590|    0.590|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Sun Dec 18 13:10:07 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4571 MB
+
+
+

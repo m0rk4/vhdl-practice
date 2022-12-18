@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/freq_div6.xst" -ofn "E:/ISE Projects/vhdl-basics/freq_div6.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/freq_div6.xst" -ofn "E:/ISE Projects/vhdl-basics/freq_div6.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "freq_div6.ngc" freq_div6.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o freq_div6_map.ncd freq_div6.ngd freq_div6.pcf 
+par -w -intstyle ise -ol high -mt off freq_div6_map.ncd freq_div6.ncd freq_div6.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml freq_div6.twx freq_div6.ncd -o freq_div6.twr freq_div6.pcf 

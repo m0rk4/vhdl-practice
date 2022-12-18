@@ -1,0 +1,3 @@
+vhdl isim_temp "freq_div.vhd"
+vhdl isim_temp "freq_div6.vhd"
+vhdl isim_temp "freqdiv6.vhd"

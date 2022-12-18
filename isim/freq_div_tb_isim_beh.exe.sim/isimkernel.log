@@ -1,0 +1,28 @@
+Command line:
+   freq_div_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65072
+
+Sun Dec 18 15:32:52 2022
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.34 Meg
+
+ Total Signals          : 7
+ Total Nets             : 4
+ Total Signal Drivers   : 4
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 4
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 366
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4682.49 Meg
+
+Sun Dec 18 15:51:10 2022
+

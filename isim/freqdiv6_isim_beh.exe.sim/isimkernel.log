@@ -1,0 +1,28 @@
+Command line:
+   freqdiv6_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65320
+
+Sun Dec 18 16:15:32 2022
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5154.34 Meg
+
+ Total Signals          : 13
+ Total Nets             : 7
+ Total Signal Drivers   : 6
+ Total Blocks           : 4
+ Total Primitive Blocks : 2
+ Total Processes        : 6
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 369
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 5468.92 Meg
+
+Sun Dec 18 16:16:17 2022
+

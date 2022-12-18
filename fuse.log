@@ -1,0 +1,21 @@
+Running: E:\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o E:/ISE Projects/vhdl-basics/freqdiv6_isim_beh.exe -prj E:/ISE Projects/vhdl-basics/freqdiv6_beh.prj work.freqdiv6 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/ISE Projects/vhdl-basics/freq_div.vhd" into library work
+Parsing VHDL file "E:/ISE Projects/vhdl-basics/freq_div6.vhd" into library work
+Parsing VHDL file "E:/ISE Projects/vhdl-basics/freqdiv6.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity freq_div [\freq_div(3)\]
+Compiling architecture behavioral of entity freq_div6 [freq_div6_default]
+Compiling architecture behavior of entity freqdiv6
+Time Resolution for simulation is 1ps.
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: Системе не удается найти указанный путь, "isim\freqdiv6_isim_beh.exe.sim\libPortability.dll".
+Compiled 7 VHDL Units
+Built simulation executable E:/ISE Projects/vhdl-basics/freqdiv6_isim_beh.exe
+Fuse Memory Usage: 30156 KB
+Fuse CPU Usage: 312 ms

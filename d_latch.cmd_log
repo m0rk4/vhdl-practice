@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/d_latch.xst" -ofn "E:/ISE Projects/vhdl-basics/d_latch.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/d_latch.xst" -ofn "E:/ISE Projects/vhdl-basics/d_latch.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "d_latch.ngc" d_latch.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o d_latch_map.ncd d_latch.ngd d_latch.pcf 
+par -w -intstyle ise -ol high -mt off d_latch_map.ncd d_latch.ncd d_latch.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml d_latch.twx d_latch.ncd -o d_latch.twr d_latch.pcf 

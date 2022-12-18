@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "E:/ISE Projects/vhdl-basics/freqdiv6_isim_beh.exe" -prj "E:/ISE Projects/vhdl-basics/freqdiv6_beh.prj" "work.freqdiv6" 
