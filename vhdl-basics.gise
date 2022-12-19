@@ -106,17 +106,14 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="d_latch_en_always.ngc"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="d_latch_en_always.ngd"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="d_latch_en_always.ngr"/>
-    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="d_latch_en_always.pad"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="d_latch_en_always.par" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="d_latch_en_always.pcf" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="d_latch_en_always.prj"/>
-    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="d_latch_en_always.ptwx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="d_latch_en_always.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="d_latch_en_always.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="d_latch_en_always.twr" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="d_latch_en_always.twx" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="d_latch_en_always.unroutes" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XPI" xil_pn:name="d_latch_en_always.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="d_latch_en_always.xst"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="d_latch_en_always_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="d_latch_en_always_guide.ncd" xil_pn:origination="imported"/>
@@ -124,14 +121,9 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="d_latch_en_always_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="d_latch_en_always_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="d_latch_en_always_map.ngm" xil_pn:subbranch="Map"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="d_latch_en_always_map.xrpt"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="d_latch_en_always_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="d_latch_en_always_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="d_latch_en_always_pad.txt" xil_pn:subbranch="Par"/>
-    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="d_latch_en_always_par.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="d_latch_en_always_summary.html"/>
-    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="d_latch_en_always_summary.xml"/>
-    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="d_latch_en_always_usage.xml"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="d_latch_en_always_xst.xrpt"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="d_latch_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="d_latch_guide.ncd" xil_pn:origination="imported"/>
@@ -289,6 +281,38 @@
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="loadable_binary_counter.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="loadable_binary_counter.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="loadable_binary_counter.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="loadable_binary_counter.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="loadable_binary_counter.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="loadable_binary_counter.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="loadable_binary_counter.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="loadable_binary_counter.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="loadable_binary_counter.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="loadable_binary_counter.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="loadable_binary_counter.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="loadable_binary_counter.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="loadable_binary_counter.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="loadable_binary_counter.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="loadable_binary_counter.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="loadable_binary_counter.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="loadable_binary_counter.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="loadable_binary_counter.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="loadable_binary_counter.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="loadable_binary_counter_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="loadable_binary_counter_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="loadable_binary_counter_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="loadable_binary_counter_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="loadable_binary_counter_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="loadable_binary_counter_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="loadable_binary_counter_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="loadable_binary_counter_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="loadable_binary_counter_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="loadable_binary_counter_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="loadable_binary_counter_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="loadable_binary_counter_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="loadable_binary_counter_xst.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="mux.bgn" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="mux.bit" xil_pn:subbranch="FPGAConfiguration"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="mux.bld"/>
@@ -632,94 +656,99 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487206" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="617281823295312562" xil_pn:start_ts="1671487206">
+    <transform xil_pn:end_ts="1671488410" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3395975872722062280" xil_pn:start_ts="1671488410">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487206" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4866745108600699963" xil_pn:start_ts="1671487206">
+    <transform xil_pn:end_ts="1671488410" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8332196261901240961" xil_pn:start_ts="1671488410">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487206" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1671487206">
+    <transform xil_pn:end_ts="1671488410" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1671488410">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487206" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6532204719283101068" xil_pn:start_ts="1671487206">
+    <transform xil_pn:end_ts="1671488410" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="4893657597562424698" xil_pn:start_ts="1671488410">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487206" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745411629038" xil_pn:start_ts="1671487206">
+    <transform xil_pn:end_ts="1671488410" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="250970745411629038" xil_pn:start_ts="1671488410">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487206" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3630947090049676091" xil_pn:start_ts="1671487206">
+    <transform xil_pn:end_ts="1671488410" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8555406531959661941" xil_pn:start_ts="1671488410">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487267" xil_pn:in_ck="-2012313770674045548" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-7163004221628968236" xil_pn:start_ts="1671487262">
+    <transform xil_pn:end_ts="1671488568" xil_pn:in_ck="-1185763204524608517" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="6415820824483705498" xil_pn:start_ts="1671488562">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="d_latch_en_always.lso"/>
-      <outfile xil_pn:name="d_latch_en_always.ngc"/>
-      <outfile xil_pn:name="d_latch_en_always.ngr"/>
-      <outfile xil_pn:name="d_latch_en_always.prj"/>
-      <outfile xil_pn:name="d_latch_en_always.stx"/>
-      <outfile xil_pn:name="d_latch_en_always.syr"/>
-      <outfile xil_pn:name="d_latch_en_always.xst"/>
-      <outfile xil_pn:name="d_latch_en_always_xst.xrpt"/>
+      <outfile xil_pn:name="loadable_binary_counter.lso"/>
+      <outfile xil_pn:name="loadable_binary_counter.ngc"/>
+      <outfile xil_pn:name="loadable_binary_counter.ngr"/>
+      <outfile xil_pn:name="loadable_binary_counter.prj"/>
+      <outfile xil_pn:name="loadable_binary_counter.stx"/>
+      <outfile xil_pn:name="loadable_binary_counter.syr"/>
+      <outfile xil_pn:name="loadable_binary_counter.xst"/>
+      <outfile xil_pn:name="loadable_binary_counter_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>
-    <transform xil_pn:end_ts="1671487212" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="297845744700536873" xil_pn:start_ts="1671487212">
+    <transform xil_pn:end_ts="1671488417" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-2953126869224183697" xil_pn:start_ts="1671488416">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1671487272" xil_pn:in_ck="5117202238143545538" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1350310940176487738" xil_pn:start_ts="1671487267">
+    <transform xil_pn:end_ts="1671488572" xil_pn:in_ck="-2575885188934366113" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5473018247228351884" xil_pn:start_ts="1671488568">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_ngo"/>
       <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
-      <outfile xil_pn:name="d_latch_en_always.bld"/>
-      <outfile xil_pn:name="d_latch_en_always.ngd"/>
-      <outfile xil_pn:name="d_latch_en_always_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="loadable_binary_counter.bld"/>
+      <outfile xil_pn:name="loadable_binary_counter.ngd"/>
+      <outfile xil_pn:name="loadable_binary_counter_ngdbuild.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1671487277" xil_pn:in_ck="3475842109153879124" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4756088955047530681" xil_pn:start_ts="1671487272">
+    <transform xil_pn:end_ts="1671488578" xil_pn:in_ck="7992560656537945234" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="4756088955047530681" xil_pn:start_ts="1671488572">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
-      <outfile xil_pn:name="d_latch_en_always.pcf"/>
-      <outfile xil_pn:name="d_latch_en_always_map.map"/>
-      <outfile xil_pn:name="d_latch_en_always_map.mrp"/>
-      <outfile xil_pn:name="d_latch_en_always_map.ncd"/>
-      <outfile xil_pn:name="d_latch_en_always_map.ngm"/>
-      <outfile xil_pn:name="d_latch_en_always_map.xrpt"/>
-      <outfile xil_pn:name="d_latch_en_always_summary.xml"/>
-      <outfile xil_pn:name="d_latch_en_always_usage.xml"/>
+      <outfile xil_pn:name="loadable_binary_counter.pcf"/>
+      <outfile xil_pn:name="loadable_binary_counter_map.map"/>
+      <outfile xil_pn:name="loadable_binary_counter_map.mrp"/>
+      <outfile xil_pn:name="loadable_binary_counter_map.ncd"/>
+      <outfile xil_pn:name="loadable_binary_counter_map.ngm"/>
+      <outfile xil_pn:name="loadable_binary_counter_map.xrpt"/>
+      <outfile xil_pn:name="loadable_binary_counter_summary.xml"/>
+      <outfile xil_pn:name="loadable_binary_counter_usage.xml"/>
     </transform>
-    <transform xil_pn:end_ts="1671487285" xil_pn:in_ck="-7207624685725231500" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1671487277">
+    <transform xil_pn:end_ts="1671488586" xil_pn:in_ck="8378814145595742539" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="93661965788626211" xil_pn:start_ts="1671488578">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
-      <outfile xil_pn:name="d_latch_en_always.ncd"/>
-      <outfile xil_pn:name="d_latch_en_always.pad"/>
-      <outfile xil_pn:name="d_latch_en_always.par"/>
-      <outfile xil_pn:name="d_latch_en_always.ptwx"/>
-      <outfile xil_pn:name="d_latch_en_always.unroutes"/>
-      <outfile xil_pn:name="d_latch_en_always.xpi"/>
-      <outfile xil_pn:name="d_latch_en_always_pad.csv"/>
-      <outfile xil_pn:name="d_latch_en_always_pad.txt"/>
-      <outfile xil_pn:name="d_latch_en_always_par.xrpt"/>
+      <outfile xil_pn:name="loadable_binary_counter.ncd"/>
+      <outfile xil_pn:name="loadable_binary_counter.pad"/>
+      <outfile xil_pn:name="loadable_binary_counter.par"/>
+      <outfile xil_pn:name="loadable_binary_counter.ptwx"/>
+      <outfile xil_pn:name="loadable_binary_counter.unroutes"/>
+      <outfile xil_pn:name="loadable_binary_counter.xpi"/>
+      <outfile xil_pn:name="loadable_binary_counter_pad.csv"/>
+      <outfile xil_pn:name="loadable_binary_counter_pad.txt"/>
+      <outfile xil_pn:name="loadable_binary_counter_par.xrpt"/>
     </transform>
-    <transform xil_pn:end_ts="1671487285" xil_pn:in_ck="-1555564393059919609" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1671487281">
+    <transform xil_pn:end_ts="1671488586" xil_pn:in_ck="3065336588011768193" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1671488583">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
       <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
-      <outfile xil_pn:name="d_latch_en_always.twr"/>
-      <outfile xil_pn:name="d_latch_en_always.twx"/>
+      <outfile xil_pn:name="loadable_binary_counter.twr"/>
+      <outfile xil_pn:name="loadable_binary_counter.twx"/>
     </transform>
   </transforms>
 
