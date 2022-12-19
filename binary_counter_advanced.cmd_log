@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.xst" -ofn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.xst" -ofn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.xst" -ofn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "binary_counter_advanced.ngc" binary_counter_advanced.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_counter_advanced_map.ncd binary_counter_advanced.ngd binary_counter_advanced.pcf 
+par -w -intstyle ise -ol high -mt off binary_counter_advanced_map.ncd binary_counter_advanced.ncd binary_counter_advanced.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_counter_advanced.twx binary_counter_advanced.ncd -o binary_counter_advanced.twr binary_counter_advanced.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.xst" -ofn "E:/ISE Projects/vhdl-basics/binary_counter_advanced.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "binary_counter_advanced.ngc" binary_counter_advanced.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o binary_counter_advanced_map.ncd binary_counter_advanced.ngd binary_counter_advanced.pcf 
+par -w -intstyle ise -ol high -mt off binary_counter_advanced_map.ncd binary_counter_advanced.ncd binary_counter_advanced.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml binary_counter_advanced.twx binary_counter_advanced.ncd -o binary_counter_advanced.twr binary_counter_advanced.pcf 

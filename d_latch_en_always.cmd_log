@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/d_latch_en_always.xst" -ofn "E:/ISE Projects/vhdl-basics/d_latch_en_always.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "d_latch_en_always.ngc" d_latch_en_always.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o d_latch_en_always_map.ncd d_latch_en_always.ngd d_latch_en_always.pcf 
+par -w -intstyle ise -ol high -mt off d_latch_en_always_map.ncd d_latch_en_always.ncd d_latch_en_always.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml d_latch_en_always.twx d_latch_en_always.ncd -o d_latch_en_always.twr d_latch_en_always.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/d_latch_en_always.xst" -ofn "E:/ISE Projects/vhdl-basics/d_latch_en_always.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "d_latch_en_always.ngc" d_latch_en_always.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o d_latch_en_always_map.ncd d_latch_en_always.ngd d_latch_en_always.pcf 
+par -w -intstyle ise -ol high -mt off d_latch_en_always_map.ncd d_latch_en_always.ncd d_latch_en_always.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml d_latch_en_always.twx d_latch_en_always.ncd -o d_latch_en_always.twr d_latch_en_always.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/d_latch_en_always.xst" -ofn "E:/ISE Projects/vhdl-basics/d_latch_en_always.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "d_latch_en_always.ngc" d_latch_en_always.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o d_latch_en_always_map.ncd d_latch_en_always.ngd d_latch_en_always.pcf 
+par -w -intstyle ise -ol high -mt off d_latch_en_always_map.ncd d_latch_en_always.ncd d_latch_en_always.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml d_latch_en_always.twx d_latch_en_always.ncd -o d_latch_en_always.twr d_latch_en_always.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/d_latch_en_always.xst" -ofn "E:/ISE Projects/vhdl-basics/d_latch_en_always.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "d_latch_en_always.ngc" d_latch_en_always.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o d_latch_en_always_map.ncd d_latch_en_always.ngd d_latch_en_always.pcf 
+par -w -intstyle ise -ol high -mt off d_latch_en_always_map.ncd d_latch_en_always.ncd d_latch_en_always.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml d_latch_en_always.twx d_latch_en_always.ncd -o d_latch_en_always.twr d_latch_en_always.pcf 

@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux32_32bit.xst" -ofn "E:/ISE Projects/vhdl-basics/mux32_32bit.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux32_32bit.xst" -ofn "E:/ISE Projects/vhdl-basics/mux32_32bit.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux32_32bit.xst" -ofn "E:/ISE Projects/vhdl-basics/mux32_32bit.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux32_32bit.xst" -ofn "E:/ISE Projects/vhdl-basics/mux32_32bit.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/mux32_32bit.xst" -ofn "E:/ISE Projects/vhdl-basics/mux32_32bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "mux32_32bit.ngc" mux32_32bit.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o mux32_32bit_map.ncd mux32_32bit.ngd mux32_32bit.pcf 

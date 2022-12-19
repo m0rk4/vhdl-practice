@@ -38,8 +38,7 @@ architecture Behavioral of freq_div6 is
 		O: out std_logic);
 	end component;
 begin
-	U1: freq_div
-		port map(rstt, CLK, outp);
+	U1: freq_div port map(rstt, CLK, outp);
 
 	main: process(CLK, outp)
 	begin
