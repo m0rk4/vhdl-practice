@@ -11,13 +11,13 @@
          <ClosedNode>/mylut4 - Structural E:|ISE Projects|vhdl-basics|lut4.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>d_latch_en_always - Behavioral (E:/ISE Projects/vhdl-basics/d_latch_en_always.vhd)</SelectedItem>
+         <SelectedItem>xc6slx9-3ftg256</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000290000000020000000000000000000000000200000064ffffffff000000810000000300000002000002900000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>d_latch_en_always - Behavioral (E:/ISE Projects/vhdl-basics/d_latch_en_always.vhd)</CurrentItem>
+      <CurrentItem>xc6slx9-3ftg256</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -85,7 +85,7 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem/>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000014e0000005a01000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff0000000000000002000001090000008201000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>

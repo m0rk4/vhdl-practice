@@ -55,7 +55,7 @@ begin
 			end if;
 		end loop;
 		
-		-- is 000000000 state
+		-- is 000000000x state
 		zerostate := not zerostate;
 		newbit:= zerostate xor newbit xor sreg(i + 1);
 			

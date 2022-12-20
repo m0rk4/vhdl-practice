@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/guess_rtl.xst" -ofn "E:/ISE Projects/vhdl-basics/guess_rtl.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "guess_rtl.ngc" guess_rtl.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o guess_rtl_map.ncd guess_rtl.ngd guess_rtl.pcf 
+par -w -intstyle ise -ol high -mt off guess_rtl_map.ncd guess_rtl.ncd guess_rtl.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml guess_rtl.twx guess_rtl.ncd -o guess_rtl.twr guess_rtl.pcf 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/guess_rtl.xst" -ofn "E:/ISE Projects/vhdl-basics/guess_rtl.syr" 

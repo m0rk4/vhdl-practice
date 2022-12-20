@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/freq_divider_counter.xst" -ofn "E:/ISE Projects/vhdl-basics/freq_divider_counter.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/freq_divider_counter.xst" -ofn "E:/ISE Projects/vhdl-basics/freq_divider_counter.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/freq_divider_counter.xst" -ofn "E:/ISE Projects/vhdl-basics/freq_divider_counter.syr" 
+xst -intstyle ise -ifn "E:/ISE Projects/vhdl-basics/freq_divider_counter.xst" -ofn "E:/ISE Projects/vhdl-basics/freq_divider_counter.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-ftg256-3 "freq_divider_counter.ngc" freq_divider_counter.ngd  
+map -intstyle ise -p xc6slx9-ftg256-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o freq_divider_counter_map.ncd freq_divider_counter.ngd freq_divider_counter.pcf 
+par -w -intstyle ise -ol high -mt off freq_divider_counter_map.ncd freq_divider_counter.ncd freq_divider_counter.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml freq_divider_counter.twx freq_divider_counter.ncd -o freq_divider_counter.twr freq_divider_counter.pcf 
